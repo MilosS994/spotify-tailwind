@@ -416,7 +416,6 @@
       <div
         class="h-20 bg-black text-white shadow-md flex justify-between items-center p-6"
       >
-        <!-- Left div -->
         <div class="flex items-center justify-center gap-3">
           <div class="flex items-center justify-center">
             <img class="w-14" src="assets/album cover.jpg" alt="album cover" />
@@ -440,10 +439,49 @@
           </div>
         </div>
 
-        <!-- Middle div -->
-        <div></div>
+        <div class="flex flex-col items-center justify-center gap-3">
+          <div class="flex items-center justify-center gap-6">
+            <img
+              class="w-5 cursor-pointer"
+              src="icons/shuffle.png"
+              alt="shuffle"
+            />
+            <img
+              class="w-4 cursor-pointer"
+              src="icons/previous.png"
+              alt="previous"
+            />
+            <div
+              class="flex justify-center items-center w-7 h-7 bg-white rounded-full relative cursor-pointer"
+            >
+              <img
+                class="w-4 absolute top-[6px] left-[8px]"
+                src="icons/play-button.png"
+                alt="play"
+              />
+            </div>
+            <img
+              class="w-4 cursor-pointer"
+              src="icons/next-button.png"
+              alt="next"
+            />
+            <img
+              class="w-4 cursor-pointer"
+              src="icons/repeat(1).png"
+              alt="repeat"
+            />
+          </div>
+          <div class="flex justify-center items-center gap-2">
+            <span class="text-xs">1:22</span>
+            <div class="flex justify-center items-center">
+              <div class="h-1 w-[170px] bg-white cursor-pointer"></div>
+              <div class="h-1 w-[330px] bg-[#2e2e2e] cursor-pointer"></div>
+            </div>
 
-        <!-- Right div -->
+            <span class="text-xs">4:45</span>
+          </div>
+        </div>
+
         <div></div>
       </div>
     </div>
