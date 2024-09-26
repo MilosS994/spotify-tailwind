@@ -14,11 +14,12 @@
   scroll-behavior: smooth;
 }
 
-.library-search {
-  display: flex;
-  justify-content: space-between !important;
-  align-items: center !important;
-}
-
 @tailwind components;
 @tailwind utilities;
+
+.cover {
+  background: url("/assets/cover.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
