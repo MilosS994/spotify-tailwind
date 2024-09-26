@@ -14,5 +14,11 @@
   scroll-behavior: smooth;
 }
 
+.library-search {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
 @tailwind components;
 @tailwind utilities;
